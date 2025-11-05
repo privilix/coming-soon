@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    background-color: #080908;
+    color: #f8f9f8;
+    font-family: "Geist";
+}
+
+nav {
+    /* height: 15%; */
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border:1px solid red; */
+    padding: 0 20px;
+}
+
+nav .logo {
+    width: 80px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f8f9f8;
+    border: 1px solid #ccc;
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+main h1 {
+    font-weight: 900;
+    font-size: 96px;
+    margin-bottom: 20px;
+}
+
+main p {
+    max-width: 50%;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+main form input {
+    padding: 15px;
+    width: 350px;
+    margin-right: 20px;
+    background-color: #080908;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+main form button {
+    border: none;
+    color: #f8f9f8;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: 700;
+    background: linear-gradient(135deg, #ff8c00, #ff2d55, #d400ff);
+}
+
+main form button:hover {
+    box-shadow: 0 4px 6px rgba(25, 25, 25, 0.238);
+}
+
+h3 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+    color: #ccc;
+    font-weight: 300;
+    opacity: 0.7;
+}
+
+h3 a {
+    text-decoration: none;
+    color: #ccccccd8;
+}
