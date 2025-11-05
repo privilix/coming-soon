@@ -72,6 +72,11 @@ main form input {
     background-color: #080908;
     border: 1px solid #ccc;
     border-radius: 5px;
+    color: #f8f9f8;
+}
+
+main form input:hover {
+  border: none;
 }
 
 main form button {
